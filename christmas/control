@@ -1,0 +1,10 @@
+Package: com.antique.christmas
+Name: Christmas
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Not sure yet...
+Depiction: http://antiqueofficial.zapto.org/christmas.html
+Maintainer: Antique, BLINGSTA69, Coolfool245 & IndieDevKB
+Author: Antique
+Section: Tweaks
