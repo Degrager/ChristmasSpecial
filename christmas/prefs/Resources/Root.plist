@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerCellClass</key>
+			<string>crsCustomCell</string>
+		</dict>
+<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+                <dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.antique.christmas</string>
+			<key>key</key>
+			<string>Enable</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+		<key>action</key>
+		<string>respring</string>
+		<key>height</key>
+		<string>38</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>label</key>
+		<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Follow us on Twitter!</string>
+			<key>label</key>
+			<string>Creator</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Atwitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>crsButtonCell</string>
+			<key>icon</key>
+			<string>atwitter.png</string>
+			<key>label</key>
+			<string>Antique's Twitter</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Dtwitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>crsButtonCell</string>
+			<key>icon</key>
+			<string>dtwitter.png</string>
+			<key>label</key>
+			<string>Degrager's Twitter</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>CFtwitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>crsButtonCell</string>
+			<key>icon</key>
+			<string>cftwitter.png</string>
+			<key>label</key>
+			<string>CoolFool245's Twitter</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>IDtwitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>crsButtonCell</string>
+			<key>icon</key>
+			<string>idtwitter.png</string>
+			<key>label</key>
+			<string>IndieDevKB's Twitter</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Christmas</string>
+		</dict>
+</plist>
