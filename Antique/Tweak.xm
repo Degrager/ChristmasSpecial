@@ -11,7 +11,7 @@ SBDockView *dockView;
 UIView *dynamicsView = [self valueForKey:@"_dynamicsContainerView"];
 
 if(!dockBackView) {
-dockBackView = [[UIView alloc] initWithFrame:CGRectMake(8, 0, self.bounds.size.width - 16, 90)];
+dockBackView = [[UIView alloc] initWithFrame:CGRectMake(8, -12, self.bounds.size.width - 16, 103)];
 [dockBackView setBackgroundColor:[UIColor colorWithRed:1 green:1 blue:1 alpha:0.72]];
 [dockBackView setClipsToBounds:YES];
 [dockBackView.layer setCornerRadius:30];
