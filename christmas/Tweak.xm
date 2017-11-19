@@ -6,6 +6,7 @@ UIView *dockBackView;
 %hook CCUIControlCenterContainerView
 -(void) layoutSubviews {
      %orig;
+int radius = GetPrefInt(@"dockradius");
 
 UIView *dynamicsView = [self valueForKey:@"_dynamicsContainerView"];
 
@@ -13,7 +14,7 @@ if(!dockBackView) {
 dockBackView = [[UIView alloc] initWithFrame:CGRectMake(8, 8, self.bounds.size.width - 16, 82)];
 [dockBackView setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0.58]];
 [dockBackView setClipsToBounds:YES];
-[dockBackView.layer setCornerRadius:30];
+[dockBackView.layer setCornerRadius: radius];
 [dynamicsView addSubview:dockBackView];
   }
 }
