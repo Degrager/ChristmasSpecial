@@ -55,3 +55,17 @@
 @interface _UIBackdropViewSettings : NSObject
 +(id) settingsForStyle:(int)arg1;
 @end
+
+//Prefs
+
+#define PLIST_PATH @"/var/mobile/Library/Preferences/com.people.christmas.plist"
+
+
+inline bool GetPrefBool(NSString *key)
+{
+return [[[NSDictionary dictionaryWithContentsOfFile:PLIST_PATH] valueForKey:key] boolValue];
+}
+
+inline int GetPrefInt(NSString *key) {
+	return [[[NSDictionary dictionaryWithContentsOfFile:PLIST_PATH] valueForKey:key] intValue];
+}
